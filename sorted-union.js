@@ -1,4 +1,4 @@
-function uniteUnique(...arr) {
+function uniteUnique(arr) {
     return Array.from(new Set(arr.flat()));
   }
   
@@ -8,3 +8,12 @@ function uniteUnique(...arr) {
   //[1, 2, 3, 5]
   uniteUnique([1, 2, 3], [5, 2, 1, 4], [2, 1], [6, 7, 8])
   //[1, 2, 3, 5, 4, 6, 7, 8]
+
+  //second way
+  function uniteUnique2(arr2) {
+
+    return [...new Set(arr2.concat(...arguments))]
+  }
+
+  console.log(uniteUnique2([1, 2, 3], [5, 2, 1]))
+  //[1, 2, 3, 5]
