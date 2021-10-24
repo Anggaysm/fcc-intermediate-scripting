@@ -3,3 +3,4 @@ function pairElement(str) {
   }
 
   pairElement("GCG");
+  //ini untuk test saja
