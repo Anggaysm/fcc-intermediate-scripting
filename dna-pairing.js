@@ -4,4 +4,4 @@ function pairElement(str) {
 
   pairElement("GCG");
   //ini adalah test doang
-  //ini juga ngetest doang 
+  //ini juga ngetest doang dgdgd
