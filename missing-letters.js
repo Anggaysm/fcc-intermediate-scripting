@@ -17,3 +17,4 @@ function fearNotLetter(str) {
   //i
   fearNotLetter("abcdefghijklmnopqrstuvwxyz")
   //undefined
+  //jadi kalo ada hurufnya semua hasilnya undefined
