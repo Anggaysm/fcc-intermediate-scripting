@@ -16,5 +16,8 @@ function addTogether(...args) {
   }
   
   console.log(addTogether(2, 3));
+  //5
   console.log(addTogether("https://www.youtube.com/watch?v=dQw4w9WgXcQ"))
+  //undefined
   console.log(addTogether(5)(7))
+  //12
