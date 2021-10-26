@@ -10,3 +10,6 @@ function steamrollArray(arr, result = []) {
   }
   
   console.log(steamrollArray([1, [2], [3, [[4]]]]));
+  //[1, 2, 3, 4]
+  steamrollArray([[["a"]], [["b"]]])
+  //["a", "b"]
